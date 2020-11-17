@@ -32,6 +32,9 @@ const Home = () => {
           appName: config.getConfig<ProjectConfig, {}>().project.appName,
         })}
       </Typography>
+      <Typography variant={'h6'} align="center">
+        Running on SAP Cloud Platform!!
+      </Typography>
 
       <Typography variant={'h6'} className={classes.congratulation}>
         {i18n.translate('Congratulation')}
